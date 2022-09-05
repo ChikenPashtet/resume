@@ -1,0 +1,22 @@
+.skill {
+    text-decoration: none;
+    width: 100%;
+    height: calc(100% - 12px);
+    padding-top: 12px;
+    background-color: #F7F9FC;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 80px 1fr 1fr;
+    grid-template-areas:
+            'photo-skill'
+            'title-skill'
+            'subtitle-skill';
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.skill:hover {
+    animation: border 2s linear;
+    scale: 1.03;
+}

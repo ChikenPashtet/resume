@@ -1,0 +1,19 @@
+.part-information {
+    width: 100%;
+    min-height: fit-content;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 27px auto;
+    grid-template-columns: 27px 1fr;
+    grid-template-areas:
+            'point-ed title-ed'
+            'line main';
+    gap: 0 20px;
+}
+
+@media screen and (max-width: 701px) and (min-width: 320px) {
+    .part-information {
+        min-height: auto;
+        height: fit-content;
+    }
+}

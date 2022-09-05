@@ -1,0 +1,7 @@
+.line {
+    grid-area: line;
+    width: 1px;
+    background-color: #E2E6EE;
+    height: 100%;
+    margin: auto;
+}

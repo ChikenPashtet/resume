@@ -1,0 +1,5 @@
+.descriptions {
+    width: calc(100% - 2*24px);
+    display: flex;
+    flex-direction: column;
+}

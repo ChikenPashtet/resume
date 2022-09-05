@@ -1,0 +1,13 @@
+.descriptions__text {
+    width: 100%;
+    height: fit-content;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-family: Inter,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #47516B;
+}

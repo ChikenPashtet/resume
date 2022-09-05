@@ -1,0 +1,13 @@
+.main-part {
+    grid-area: main;
+    width: calc(100% - 2*13px);
+    height: fit-content;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 250px));
+    grid-template-rows: 150px;
+    grid-auto-rows: 150px;
+    grid-gap:25px;
+}

@@ -1,0 +1,20 @@
+.certificate {
+    text-decoration: none;
+    width: 100%;
+    height: fit-content;
+    background-color: #F7F9FC;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: minmax(30px,max-content) minmax(70px, max-content);
+    grid-template-areas:
+            'photo title data'
+            'photo subtitle subtitle';
+    justify-content: center;
+}
+
+.certificate:hover {
+    animation: border 2s linear;
+    scale: 1.03;
+}

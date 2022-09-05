@@ -1,0 +1,7 @@
+.skill__photo {
+    grid-area: photo-skill;
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
+}

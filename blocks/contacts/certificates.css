@@ -1,0 +1,11 @@
+.certificates {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 27px auto;
+    grid-template-columns: 27px 1fr;
+    grid-template-areas:
+            'point-ed title-ed'
+            'line main';
+    gap: 0 20px;
+}

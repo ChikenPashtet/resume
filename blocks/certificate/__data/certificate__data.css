@@ -1,0 +1,11 @@
+.certificate__data {
+    margin: 5px 5px 5px auto;
+    text-align: right;
+    grid-area: data;
+    font-family: Inter, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #47516B;
+}

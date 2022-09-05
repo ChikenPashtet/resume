@@ -1,0 +1,11 @@
+.part__subtitle {
+    width: calc(100% - 24px);
+    margin: 5px 12px 0 12px;
+    grid-area: subtitle-part;
+    font-family: Inter,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2E48;
+}

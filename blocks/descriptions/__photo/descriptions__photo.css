@@ -1,0 +1,10 @@
+.descriptions__photo {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid transparent;
+
+}
+.descriptions__photo:hover {
+    animation: border 1.5s linear forwards;
+}

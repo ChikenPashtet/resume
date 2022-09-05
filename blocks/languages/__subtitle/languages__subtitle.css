@@ -1,0 +1,9 @@
+.languages__subtitle {
+    margin: 0;
+    grid-area: subtitle;
+    font-family: Inter,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.3;
+    color: #79819A;
+}

@@ -1,0 +1,14 @@
+.skill__subtitle {
+    width: 100%;
+    height: calc(100% - 10px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    grid-area: subtitle-skill;
+    text-align: center;
+    font-family: Inter,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #79819A;
+}

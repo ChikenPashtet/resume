@@ -1,0 +1,11 @@
+.descriptions__name {
+    width: 100%;
+    height: fit-content;
+    margin-top: 15px;
+    font-family: Inter,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2E2E48;
+}

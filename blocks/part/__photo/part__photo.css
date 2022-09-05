@@ -1,0 +1,9 @@
+.part__photo {
+    margin-top: 12px;
+    margin-left: 12px;
+    grid-area: photo-part;
+    width: calc(100% - 12px);
+    height: 80px;
+    object-fit: contain;
+    object-position: left;
+}

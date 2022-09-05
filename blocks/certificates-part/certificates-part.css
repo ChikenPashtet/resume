@@ -1,0 +1,13 @@
+.certificates-part {
+    width: calc(100% - 2*13px);
+    grid-area: main;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    justify-items: center;
+    grid-gap:25px;
+}

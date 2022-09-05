@@ -1,0 +1,17 @@
+.contacts__text {
+    text-decoration: none;
+    margin: 0;
+    grid-area: subtitle;
+    font-family: Inter,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: #79819A;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contacts__text:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}

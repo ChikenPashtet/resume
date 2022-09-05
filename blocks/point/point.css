@@ -1,0 +1,11 @@
+.point {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 15fr 85fr;
+    grid-template-rows: repeat(2,min-content);
+    grid-template-areas:
+            'photo title'
+            'photo subtitle';
+    grid-gap: 0 10px;
+    margin: 16px 0;
+}

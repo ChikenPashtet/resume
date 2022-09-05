@@ -1,0 +1,12 @@
+.social__photo {
+    grid-area: photo;
+    width: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    object-fit: contain;
+    background-color: #E2E6EE;
+}
+.social__photo:hover {
+    scale: 1.04;
+    cursor: pointer;
+}
